@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: {{projectTitle}}</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <a href="index.html" class="header-logo">
+          <h1 class="page-heading">DEVICE</h1>
+        </a>
+        <div class="navigation-section-user">
+          <form
+            class="navigaion-search"
+            action="https://echo.htmlacademy.ru"
+            method="POST"
+          >
+            <input
+              class="navigation-search--input"
+              name="search"
+              id="search"
+              placeholder="Текст поиска"
+              type="text"
+            />
+            <button class="navigaion-search--submit-button" type="submit">
+              Найти
+            </button>
+          </form>
+          <ul class="navigation-section-user--options">
+            <li class="navigation-section-user--item">
+              <a href="#">Войти</a>
+            </li>
+            <li class="navigation-section-user--item visually-hidden">
+              <a href="#">Выйти</a>
+            </li>
+          </ul>
+          <ul class="navigation-section-user--functions">
+            <li class="navigation-section-user--item">
+              <a href="#">Сравнить</a>
+            </li>
+            <li class="navigation-section-user--item">
+              <a href="#">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation-section-information">
+          <ul class="navigation-website">
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Каталог</a>
+            </li>
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Доставка</a>
+            </li>
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Гарантия</a>
+            </li>
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="catalog-header">
+        <h2 class="section-heading">Моноподы для селфи</h2>
+        <div class="catalog-tree">
+          <p class="section-text">Главная</p>
+          <p class="section-text">Каталог товаров</p>
+          <p class="section-text">Моноподы для селфи</p>
+        </div>
+      </section>
+      <section class="catalog-content">
+        <div class="filter-form">
+          <h3 class="wide-text">Фильтр</h3>
+          <label class="form-item" for="form-price">
+            <h4 class="item-heading">Стоимость</h4>
+            <input type="range" id="form-price" name="form-price" />
+          </label>
+          <label class="form-item">
+            <h4 class="item-heading">Стоимость</h4>
+            <input
+              class="form-check"
+              type="checkbox"
+              id="black"
+              name="black"
+              value="black"
+            />
+            <label for="black">Черный</label>
+            <input
+              class="form-check"
+              type="checkbox"
+              id="white"
+              name="white"
+              value="white"
+            />
+            <label for="white">Белый</label>
+            <input
+              class="form-check"
+              type="checkbox"
+              id="blue"
+              name="blue"
+              value="blue"
+            />
+            <label for="blue">Синий</label>
+
+            <input
+              class="form-check"
+              type="checkbox"
+              id="red"
+              name="red"
+              value="red"
+            />
+            <label for="red">Красный</label>
+            <input
+              class="form-check"
+              type="checkbox"
+              id="pink"
+              name="pink"
+              value="pink"
+            />
+            <label for="pink">Розовый</label>
+          </label>
+          <label class="form-item">
+            <h4 class="item-heading">Bluetooth</h4>
+            <input
+              class="radio-input"
+              type="radio"
+              id="yes"
+              name="yes"
+              value="yes"
+            />
+            <label for="yes">Есть</label>
+            <input
+              class="radio-input"
+              type="radio"
+              id="no"
+              name="no"
+              value="no"
+            />
+            <label for="no">Нет</label>
+          </label>
+          <button class="button--more" type="submit">Показать</button>
+        </div>
+        <div class="catalog-items">
+          <div class="catalog-sorting">
+            <form action="" method="POST">
+              <label for="options">
+                <h3 class="wide-text">Сортировка</h3>
+                <select name="options" id="options">
+                  <option value="populat">популярные</option>
+                </select>
+                <a href="#" class="sort-up"></a>
+                <a href="#" class="sort-down"></a>
+              </label>
+            </form>
+          </div>
+          <div class="catalog-items-items">
+            <div class="catalog-item">
+              <img class="catalog-item--image" src="#" alt="" />
+              <div class="catalog-item-description">
+                <h4 class="item-heading">Стоимость</h4>
+                <p class="item-price"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <h2 class="footer-heading">DEVICE</h2>
+      <div class="footer-row">
+        <p class="section-text text-white">
+          Санкт-Петербург, набережная реки Карповки, 5, литера П.
+        </p>
+        <ul class="navigation-website navigation-website--footer">
+          <li class="navigation-website--item">
+            <a class="navigation-website--link" href="#">Доставка</a>
+          </li>
+          <li class="navigation-website--item">
+            <a class="navigation-website--link" href="#">Гарантия</a>
+          </li>
+          <li class="navigation-website--item">
+            <a class="navigation-website--link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <p class="content-phone content-phone--footer">+7 (812) 812-12-12</p>
+      </div>
+      <div class="footer-row">
+        <img class="icon-footer" src="" alt="" />
+        <ul class="icons-list">
+          <li class="icons-list-icon"></li>
+          <li class="icons-list-icon"></li>
+          <li class="icons-list-icon"></li>
+        </ul>
+        <img class="icon-footer" src="" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>

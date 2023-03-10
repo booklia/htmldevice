@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: {{projectTitle}}</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <a href="index.html" class="header-logo">
+          <h1 class="page-heading">DEVICE</h1>
+        </a>
+        <div class="navigation-section-user">
+          <form
+            class="navigaion-search"
+            action="https://echo.htmlacademy.ru"
+            method="POST"
+          >
+            <input
+              class="navigation-search--input"
+              name="search"
+              id="search"
+              placeholder="Текст поиска"
+              type="text"
+            />
+            <button class="navigaion-search--submit-button" type="submit">
+              Найти
+            </button>
+          </form>
+          <ul class="navigation-section-user--options">
+            <li class="navigation-section-user--item">
+              <a href="#">Войти</a>
+            </li>
+            <li class="navigation-section-user--item visually-hidden">
+              <a href="#">Выйти</a>
+            </li>
+          </ul>
+          <ul class="navigation-section-user--functions">
+            <li class="navigation-section-user--item">
+              <a href="#">Сравнить</a>
+            </li>
+            <li class="navigation-section-user--item">
+              <a href="#">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation-section-information">
+          <ul class="navigation-website">
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Каталог</a>
+            </li>
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Доставка</a>
+            </li>
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Гарантия</a>
+            </li>
+            <li class="navigation-website--item">
+              <a class="navigation-website--link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="main-content-slider">
+        <div class="main-content-slider--controls">
+          <button class="slider--left"></button>
+          <button class="slider--right"></button>
+        </div>
+        <div class="main-content-slider--slides">
+          <div class="slide">
+            <img class="slide--image" src="" alt="описание" />
+            <div class="slide--content">
+              <h2 class="section-heading"></h2>
+              <p class="section-text"></p>
+              <div class="slider--buttons">
+                <button class="button--more">ПОДРОБНЕЕ</button>
+                <div class="slider--slides">
+                  <button class="slider--slide"></button>
+                  <button class="slider--slide"></button>
+                  <button class="slider--slide"></button>
+                </div>
+              </div>
+              <div class="slide--props">
+                <div class="slide--prop">
+                  <h3 class="slide--prop--header"></h3>
+                  <p class="slide--prop--text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-content-categories">
+        <div class="main-content-categories-item">
+          <img
+            class="main-content-categories--image"
+            src=""
+            alt="картинка категории"
+          />
+          <p class="main-content-categories--text"></p>
+        </div>
+      </section>
+      <section class="main-content-features">
+        <ul class="main-content-features-list">
+          <a class="features--button" href="#">Доставка</a>
+          <a class="features--button" href="#">Гарантия</a>
+          <a class="features--button" href="#">Кредит</a>
+        </ul>
+        <div class="main-content-features-description">
+          <h2 class="section-heading"></h2>
+          <p class="section-text"></p>
+        </div>
+      </section>
+      <section class="main-content-info">
+        <header class="main-content-info-header">
+          <img class="content-header-icon--yellow" src="" alt="" />
+          <p class="content-header-text">Доставим редкий товар под заказ</p>
+          <img class="content-header-icon" src="" alt="" />
+        </header>
+        <div class="content-container">
+          <div class="content-item">
+            <h2 class="section-heading">О нас</h2>
+            <p class="section-text">
+              Огромный выбор гаджетов не оставит равнодушным гика, который есть
+              в каждом из нас.
+            </p>
+            <p class="section-text">
+              Мы можем доставить ваш товар в самые отдаленные уголки России
+              транспортными компаниями:
+            </p>
+            <ul class="content-list">
+              <li class="content-list-item">Меловые линии</li>
+              <li class="content-list-item">СДИК</li>
+              <li class="content-list-item">ТоксБерри</li>
+            </ul>
+            <button class="button--more">Подробнее о нас</button>
+          </div>
+          <div class="content-item">
+            <h2 class="section-heading">Контакты</h2>
+            <p class="section-text">
+              Вы можете забрать товар сами, заехав в наш офис. Заодно сможете
+              проверить работоспособность покупки.
+            </p>
+            <h3 class="section-subheading">Интернет-магазин "Девайс"</h3>
+            <p class="section-text">
+              Санкт-Петербург, набережная реки Карповки, 5, литера П.
+              <span class="content-phone">+7 (812) 812-12-12</span>
+            </p>
+            <h3 class="section-subheading">Время работы</h3>
+            <p class="section-text">пн-пт: с 10:00 до 22:00</p>
+            <p class="section-text">сб-вс: с 10:00 до 19:00</p>
+
+            <button class="button--more">Напишите нам</button>
+          </div>
+        </div>
+      </section>
+      <section class="main-content-email">
+        <div class="main-content-email-description">
+          <h2 class="section-heading">Подпишитесь на рассылку</h2>
+          <p class="section-text">
+            Еженедельный дайджест с обзорами новинок, длительными тест-драйвами,
+            распаковками, а также акции, спецпредложения и вот это вот все.
+          </p>
+        </div>
+        <div class="subscribe-container">
+          <form
+            class="email-subscribe-form"
+            action="https://echo.htmlacademy.ru"
+            method="POST"
+          >
+            <input
+              class="email-subscribe-form--input"
+              name="subscribe"
+              id="subscribe"
+              placeholder="Ваш e-mail"
+              type="text"
+            />
+            <button class="navigaion-search--submit-button" type="submit">
+              Подписаться
+            </button>
+          </form>
+          <p class="subscribe-text">Это бесплатно</p>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <h2 class="footer-heading">DEVICE</h2>
+      <div class="footer-row">
+        <p class="section-text text-white">
+          Санкт-Петербург, набережная реки Карповки, 5, литера П.
+        </p>
+        <ul class="navigation-website navigation-website--footer">
+          <li class="navigation-website--item">
+            <a class="navigation-website--link" href="#">Доставка</a>
+          </li>
+          <li class="navigation-website--item">
+            <a class="navigation-website--link" href="#">Гарантия</a>
+          </li>
+          <li class="navigation-website--item">
+            <a class="navigation-website--link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <p class="content-phone content-phone--footer">+7 (812) 812-12-12</p>
+      </div>
+      <div class="footer-row">
+        <img class="icon-footer" src="" alt="" />
+        <ul class="icons-list">
+          <li class="icons-list-icon"></li>
+          <li class="icons-list-icon"></li>
+          <li class="icons-list-icon"></li>
+        </ul>
+        <img class="icon-footer" src="" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
